@@ -1,4 +1,24 @@
 :root {
+  --light-green: #f5f6e8;
+  --mid-green: #eaebdd;
+  --dark-green: #a0a198;
+
+  --light-black: #b3b3b7
+  --mid-black: #4c4c48;
+  --dark-black: #0a0917;
+
+  --white-grey: #fefefd;
+
+  --sativa-color: #e8f6f0;
+  --indica-color: #e9e8f6;
+  --hybrid-color: #f6e8ee;
+
+  --light-font: 300;
+  --regular-font: 400;
+  --semi-font: 500;
+  --bold-font: 600;
+
+
 }
 
 * {
@@ -12,10 +32,15 @@ html {
 }
 
 body {
+  background-color: var(--white-grey);
   height: 100vh;
-  background-color: beige;
   font-family: "Montserrat", sans-serif;
   color: #555;
   line-height: 1;
-  font-weight: 400;
+  font-weight: var(--regular-font);
+
+}
+
+.hidden {
+  display: none;
 }
